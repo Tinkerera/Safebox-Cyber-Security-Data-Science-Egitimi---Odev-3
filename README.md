@@ -2,7 +2,7 @@
 Safebox
 
 Gruptaki her bir kişinin yaptığı ödev kendi isminin yazılı olduğu dosyalardadır.
-Ahmet Burak İmal
+/nAhmet Burak İmal
 Adem Yıldırım
 Ahmet Batman
 Ömer Can Vural
