@@ -1,5 +1,10 @@
-SELECT müşteri_id, müşteri_adı, SUM(satis_miktari) AS toplam_gelir
-FROM satis_tablosu
-GROUP BY müşteri_id, müşteri_adı
-ORDER BY toplam_gelir DESC
-LIMIT 10;
+Creeper virüsü, bilgisayar dünyasında ilk kez ortaya çıkan bir zararlı yazılımdır. Creeper, 1971 yılında bir ARPANET (İnternet öncüsü) denemesi sırasında oluşturuldu. Bu virüs, sistemlere sızmak ve kendini kopyalamak suretiyle yayılırken, ekranda "I'm the Creeper, catch me if you can!" mesajını gösteriyordu. Creeper virüsü, günümüzdeki zararlı yazılımların temelini atan bir örnek olarak kabul edilir. Virüsün amacı, hedef sistemi kontrol etmek ve yayılmak olan bir solucan olarak sınıflandırılır. Creeper'ın ortaya çıkması, bilgisayar güvenliği ve zararlı yazılım tehditlerinin farkında olma ihtiyacını ortaya çıkardı.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Analitik SQL, büyük veri kümelerini analiz etmek, desenleri belirlemek, istatistiksel hesaplamalar yapmak ve karar destek sistemleri oluşturmak için veritabanı yönetim sistemlerinde kullanılan bir yaklaşımdır. Veri çekme, birleştirme, sıralama, gruplama, filtreleme ve istatistiksel hesaplamalar gibi işlemleri içerir. Analitik SQL, genellikle veri ambarları, iş zekası uygulamaları ve veri analitiği projelerinde yoğun bir şekilde kullanılır. Örneğin, "urunler" tablosunda bulunan ürünlerin kategorilerine göre ortalama fiyatlarını ve en yüksek fiyatlarını hesaplamak ve sonuçları kategoriye göre büyükten küçüğe sıralamak için aşağıdaki sorguyu kullanabilirsiniz:
+
+SELECT kategori, AVG(fiyat) AS ortalama_fiyat, MAX(fiyat) AS en_yuksek_fiyat
+FROM urunler
+GROUP BY kategori
+ORDER BY ortalama_fiyat DESC;
+ 
