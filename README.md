@@ -1,9 +1,9 @@
 # Safebox-Cyber-Security-Data-Science-Egitimi---Odev-3
 Safebox
 
-Gruptaki her bir kişinin yaptığı ödev kendi isminin yazılı olduğu dosyalardadır.
-/nAhmet Burak İmal
-Adem Yıldırım
-Ahmet Batman
-Ömer Can Vural
-Ünal Ramazan Doğangün
+Gruptaki her bir kişinin yaptığı ödev kendi isminin yazılı olduğu dosyalardadır.<br />
+Ahmet Burak İmal<br />
+Adem Yıldırım<br />
+Ahmet Batman<br />
+Ömer Can Vural<br />
+Ünal Ramazan Doğangün<br />
